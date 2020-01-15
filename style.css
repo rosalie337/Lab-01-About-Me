@@ -5,44 +5,33 @@
 
 header {
     
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left ;
+    font-style:American Typewriter;
+    color: black;
+    text-align: center ;
     font-size: 40px;
-    font-weight:normal ;
-    text-transform: uppercase;
-    color: rgb(78, 75, 75);
-  
+    font-weight: bold;
+ 
 }
 
-img {
-    
-    object-fit: stretch;
-
-}
 
 body {
     
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left ;
-    font-size: 1rem;
-    font-weight:normal ;
-    color: rgb(78, 75, 75);
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align :center;
+    font-size :1rem;;
+    font-weight :normal;
+    background-image:;
+
 }
 
-.QuizStyle {
+.instructions {
     
-    background-color: pink;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    color: rgb(78, 75, 75);
 
 }
 
-footer{
-
-
-
-
+.hidden {
+    display: none;
 }

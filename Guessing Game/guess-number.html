@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,54 +9,28 @@
     <img id="office" height="200" width="200"src='https://deltafonts.com/wp-content/uploads/The-Office-tv-logo.png'></img>
     Guessing Game
 </header>
-
 <body>
-
-    <div id= "instructions">
-
-        <p>What number am I thinking of? You have four opportunities to find a number between 1 and 20. Guess the number correctly and you win!</p>
-    
-    </div>
-
-
-    <label id= "number input"> Guess (1-20) :
-
+    <main>
+        <div id= "instructions">
+            <p>What number am I thinking of? You have four opportunities to find a number between 1 and 20. Guess the number correctly and you win!</p>
+        </div>
+        <label id= "number input"> Guess (1-20) :
         <input id ="guess-input" size= "4" min=1 max="20" > 
-
         </input>
-    
-    </form>
-
-    <br>
-
-    </br>
-
-    <button id="submit-button">Submit</button>
-
-    <br></br>
-
-    <div id="user attempts">
-        
-        Remaining Attempts: 
-
-    </div> 
-        
-        <span class id="guesses left">4</span>
-
-        <p class="hidden" id="temporary-number">You guessed</p><p class="hidden" id="diplay-high"></p> 
-
-        <p class="hidden">Tries remaining:<span id="attempts">4</span></p>
-
-        <p class="hidden" id="temp-container">You guess is: <span id="diplay-high">too high</span></p>
-
-        <p class="hidden" id="win-container">You just: <span id="win-display">won</span></p>
-        
-    
-    <img id="dwight" height="" width=""src="https://content.web-repository.com/s/63655206626377835/uploads/Images/Dwight-Schrute-21163986_clipped_rev_1-7092912.png"></img>
-
+            <br></br>
+            <button id="submit-button">Submit</button>
+            <br></br>
+        <div id="user attempts">Remaining Attempts: 
+        </div> 
+            <span class id="guesses left">4</span>
+             <p class="hidden" id="temporary-number">You guessed</p><p class="hidden" id="diplay-high"></p> 
+            <p class="hidden">Tries remaining:<span id="attempts">4</span></p>
+            <p class="hidden" id="temp-container">You guess is: <span id="diplay-high">too high</span></p>
+            <p class="hidden" id="win-container">You just: <span id="win-display">won</span></p>
+            <img id="dwight"></img>
+    </main>
+    <script type="module" src="app.js"></script>
 </body>
-
 <footer>
-
 </footer>
 </html>

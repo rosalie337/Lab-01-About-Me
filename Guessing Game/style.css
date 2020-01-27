@@ -13,9 +13,13 @@ header {
  
 }
 
-
 body {
-    
+    margin-top: 7em;
+    margin-right:40em;
+    margin-left: 4em;
+    background-image: url('https://content.web-repository.com/s/63655206626377835/uploads/Images/Dwight-Schrute-21163986_clipped_rev_1-7092912.png');
+    background-position: left;
+    background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align :center;
     font-size :1rem;;
@@ -25,12 +29,11 @@ body {
 
 .instructions {
     
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-
 }
 
-.hidden {
+#hidden {
     display: none;
 }

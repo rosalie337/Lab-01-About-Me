@@ -15,7 +15,6 @@ submitButton.addEventListener('click', () => {
     tries--;
 
     triesDisplay.textContent = tries;
-    console.log('Dwight says', Number(userInput.value));
     if (checkNumbers(Number(userInput.value), correctNumber) === -1) {
         tempDisplay.textContent = 'too low';
         tempContainer.classList.remove('hidden');
@@ -28,7 +27,7 @@ submitButton.addEventListener('click', () => {
         tempDisplay.textContent = 'correct';
         tempContainer.classList.remove('hidden');
         resultContainer.classList.remove('hidden');
-        sumbitButton.disabled = true;
+        submitButton.disabled = true;
     }
     if (tries === 0 && checkNumbers(Number(userInput.value), correctNumber) !== 0) {
         submitButton.disabled = true;
